@@ -1,11 +1,9 @@
 <script setup>
-
-import Button from './Button.vue';
-
+    import Button from './Button.vue';
 </script>
 
 <script>
- export default { components: { Button } }
+    export default { components: { Button } }
 </script>
 
 <template>
