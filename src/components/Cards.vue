@@ -1,5 +1,11 @@
+<script setup>
+
+import Button from './Button.vue';
+
+</script>
+
 <script>
- export default {}
+ export default { components: { Button } }
 </script>
 
 <template>
@@ -13,7 +19,7 @@
             <span>This is the body of the card</span>
         </div>
         <div class="card-footer">
-            <span>Button component should be here</span>
+            <Button/>
         </div>
     </div>
 </template>
