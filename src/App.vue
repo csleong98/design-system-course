@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Cards from './components/Cards.vue';
+import Button from './components/Button.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import Cards from './components/Cards.vue';
 
   <main>
     <Cards />
+    <Button />
     <TheWelcome />
   </main>
 </template>
